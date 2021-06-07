@@ -14,10 +14,7 @@ export class ToDoTask extends LitElement {
 	static get styles()
 	{
 		return css `
-
-                        li:hover{ background:#999; color:#fff;}
 			.card {display:inline-block;}
-			
 		`;
 	}
 
