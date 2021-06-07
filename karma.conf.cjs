@@ -18,6 +18,13 @@ module.exports = config => {
                 // if you are using 'bare module imports' you will need this option
                 nodeResolve: true,
             },
+	    browsers: ['ChromeHeadlessNoSandbox'],
+		customLaunchers: {
+	    	ChromeHeadlessNoSandbox: {
+        	base: 'ChromeHeadless',
+        	flags: ['--no-sandbox']
+    		}
+	    },	
         }),
     );
     return config;
