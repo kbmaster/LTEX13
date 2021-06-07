@@ -4,7 +4,7 @@
   "description": "Webcomponent to-do following open-wc recommendations",
   "author": "to-do",
   "license": "MIT",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "start": "web-dev-server",
     "test": "karma start karma.conf.cjs"
