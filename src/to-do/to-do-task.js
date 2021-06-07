@@ -15,6 +15,7 @@ export class ToDoTask extends LitElement {
 	{
 		return css `
 			.card {display:inline-block;}
+			.kk{};
 		`;
 	}
 
