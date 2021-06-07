@@ -16,7 +16,7 @@ describe('Test ToDoTask', () => {
 
     it('to-do-task tiene un string vacio como Id por defecto', async () => {
         const el = await fixture(html`<to-do-task></to-do-task>`);
-        assert.equal(el.id, '');
+        assert.equal(el.id, 'i');
     });
 
     it('to-do-task initialize Id', async () => {
