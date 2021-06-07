@@ -1,4 +1,4 @@
-import {ToDoTask} from '../src/to-do/to-do-task.js';
+import {ToDoTask} from '../to-do/to-do-task.js';
 import {fixture, html, expect} from '@open-wc/testing';
 
 //describe es una forma simple de agrupar tests titulo + funcion conteniendo los test cases
